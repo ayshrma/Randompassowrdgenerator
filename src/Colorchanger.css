@@ -1,0 +1,58 @@
+
+/* *{
+    background: palegoldenrod;
+} */
+
+
+.main{
+    /* background: #000; */
+    height: 100vh;
+
+}
+
+.buttons{
+   
+
+}
+
+.Button{
+ text-align: center;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ellipsis.multiline {
+    white-space: normal;
+}
+
+/* style={{"width: 100px; border: 1px solid black;"}} */
+/* style={{"width: 100px; height: 40px; border: 1px solid black; }} */
+
+/* .app a {
+    height: 18px;
+    width: 140px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+  } */
+
+
+  #divText{
+    width: 21px;
+    background: pink;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    padding: 10px;
+  }
